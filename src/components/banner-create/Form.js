@@ -41,6 +41,9 @@ const Form = (props) => {
     console.log('추가', formValues)
 
     // 추가되는시점에 id 부여
+
+    // const foo = { a: 10 }
+    // const newFoo = { ...foo }
     props.onAddBanner({
       id: Date.now(),
       ...formValues,

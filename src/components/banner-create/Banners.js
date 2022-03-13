@@ -6,8 +6,6 @@ import Banner from './Banner'
 const Banners = (props) => {
   const { banners } = props
 
-  console.log(' banners ', banners)
-
   return (
     <div>
       {banners.map((banner) => {
